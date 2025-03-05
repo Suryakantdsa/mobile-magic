@@ -62,6 +62,7 @@ export default function ProjectPage({
               value={prompt}
               onChange={(e) => setPrompt(e.target.value)}
               className="bg-neutral-800 h-10"
+              placeholder="how can mobile-magic help you ?"
             />
             <Button
               onClick={async () => {
